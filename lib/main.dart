@@ -45,7 +45,15 @@ void main() {
         ],
         fixedColor: Colors.redAccent,
         currentIndex: 1,
-      )
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(
+          Icons.add
+        ),
+        onPressed: () {
+          print("Floating Action Button tapped");
+        },
+      ),
     ),
   ));
 }
