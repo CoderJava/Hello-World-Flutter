@@ -37,6 +37,15 @@ void main() {
           ],
         ),
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(title: Text("Home"), icon: Icon(Icons.home)),
+          BottomNavigationBarItem(
+              title: Text("Search"), icon: Icon(Icons.search))
+        ],
+        fixedColor: Colors.redAccent,
+        currentIndex: 1,
+      )
     ),
   ));
 }
